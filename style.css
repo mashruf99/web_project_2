@@ -1,0 +1,583 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+.open-sans-font {
+  font-family: "Open Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.text-dark-grey {
+  color: #424242;
+}
+
+.text-light-grey {
+  color: rgba(114, 114, 114, 1);
+}
+
+
+.bg-light {
+  background-color: rgba(237, 142, 32, 0.1);
+}
+
+.displayFlex {
+  display: flex;
+}
+
+.btn-primary {
+  background-color: rgba(255, 144, 14, 1);
+  color: white;
+  padding: 15px 20px; /* Keep padding reasonable */
+  border-radius: 5px;
+  font-size: 1.25rem;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 50px;
+  margin-top: 30px;
+  
+  display: inline-block; /* Prevents full width */
+  width: fit-content; /* Adjusts width to content */
+}
+.navbar {
+  color: black;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.brand{
+  font-weight: 700;
+  font-size: 3rem;
+}
+
+.banner-content{
+  max-width: 850px;
+  margin: 0 auto;
+  text-align: center;
+}
+.banner-title{
+  font-weight: 700;
+  font-size: 4rem;
+}
+.banner img {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+  border-radius: 5px;
+  margin: 0px;
+
+    width: 100%;  /* Makes the image responsive */
+    height: auto; /* Maintains aspect ratio */
+    max-width: 100%; /* Ensures it doesn't overflow */
+    display: block; /* Removes extra space below the image */
+  
+}
+.nav-links a {
+  text-decoration: none;
+  font-size: 1.25rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-right: 25px;
+  border-bottom: none;
+  padding: 5px 0;
+  transition: all 0.2s ease;
+}
+.nav-item {
+  list-style: none;
+  margin-right: 25px;
+}
+.nav-link:hover {
+  background-color: orangered;
+}
+
+.navbar,
+.banner {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+main{
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+main > section {
+  margin: 100px 0;
+}
+
+.team{
+  display: flex;
+  align-items: center;
+  
+}
+
+
+
+.team-img-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2 columns */
+  gap: 10px; /* Adds space between images */
+  padding: 10px; /* Adds space around images */
+  
+}
+
+.team-img-container img {
+  width: 100%; /* Ensures images take full width of grid cell */
+  height: auto; /* Maintains aspect ratio */
+  border-radius: 5px; /* Optional: Adds slight rounded corners */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.7); /* Optional: Adds shadow */
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.our-features{
+  margin-left: 140px;
+
+}
+
+.feature-title{
+  font-size: 2.8rem;
+  max-width: 420px;
+}
+
+#ql{
+  font-weight: 400;
+  font-family: work-sans;
+  color: rgba(114, 114, 114, 1);
+}
+#of{
+  font-weight: 800;
+  font-family: work-sans;
+}
+#feat{
+  font-weight: 650;
+  color: #FF900E;
+}
+.feature-list{
+  color: rgba(114, 114, 114, 1);
+}
+
+
+.fact-card{
+  border: 1px solid #FF900E;
+  width: 240px;
+  height: 240px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  box-shadow: #FF900E 0px 0px 5px;
+  border-radius: 12px;
+}
+
+.fact-container{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  padding: 20px;
+  
+}
+
+.fact-number{
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.fact-name{
+  font-size: 1.02rem;
+  font-weight: 500;
+  margin-top: 2px;
+  color: rgba(114, 114, 114, 1);
+}
+
+.fact-description{
+  max-width: 540px;
+}
+.fact-card img {
+  width: 70%;
+  height: auto;
+  border-radius: 12px;
+}
+
+
+.spon-info{
+  max-width: 540px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin: 50px auto;
+}
+
+.spon-img{
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 20px;
+}
+.spon-title{
+  font-size: 2.8rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.spon-img img {
+  filter: grayscale(100%);
+}
+
+.spon-img img:hover {
+  filter: brightness(80%);
+}
+
+
+footer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 20px 0;
+}
+
+.foot {
+  background-color: #fef7f0;
+  text-align: center;
+  padding: 10px 20px;
+  border-radius: 10px;
+  width: 80%;
+  font-size: 14px;
+  color: #333;
+}
+
+
+.features{
+  display: flex;
+  gap: 140px;
+}
+
+
+
+#feature-section-title{
+  border-left: 5px solid #FF900E;
+  padding-left: 21px;
+}
+
+.feature-cart{
+  border-radius: 8px;
+  margin: 20px;
+  padding: 30px 42px;
+  border-radius: 12px;
+  box-shadow: 0 4px 300px rgba(0, 0, 0, 0.06);
+}
+
+
+.feature-cart .feature-title{
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+
+#badge{
+  background-color: #FF900E;
+  color: white;
+  padding: 45px 42px;
+  border-radius: 5px;
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-left: -92px;
+  margin-top: -80px;
+}
+#year{
+  font-size: 4rem;
+  font-weight: 700;
+}
+
+.feature-img img{
+  max-width: 100%;
+}
+
+
+@media screen and (max-width: 576px) {
+  .navbar,.nav-link,.features{
+    flex-direction: column;
+  }
+  .banner img {
+    width: 100%;  /* Makes the image responsive */
+    height: auto; /* Maintains aspect ratio */
+    max-width: 100%; /* Ensures it doesn't overflow */
+    display: block; /* Removes extra space below the image */
+  }
+  .team-img-container {
+    grid-template-columns: 1fr; /* 1 column on small screens */
+  }
+  .fact-card{
+    border: 1px solid #FF900E;
+    width: 120px;
+    height: 120px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    box-shadow: #FF900E 0px 0px 5px;
+    border-radius: 12px;
+  }
+  .fact-number{
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin-top: 2.5px;
+    margin-bottom: 10px;
+  }
+  
+  .fact-name{
+    font-size: .6rem;
+    font-weight: 500;
+    margin-top: 1px;
+    color: rgba(114, 114, 114, 1);
+  }
+  .spon-img{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+  }
+  .spon-img img {
+    margin-top: 10px;
+  }
+
+  
+  #badge{
+    background-color: #FF900E;
+    color: white;
+    padding: 25px 22px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-left: 0px;
+    margin-top: 0px;
+  }
+  #year{
+    font-size: 2.5rem;
+    font-weight: 700;
+  }
+  
+
+}
+
+@media screen and (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .nav-links {
+    flex-direction: row;
+    justify-content: center;
+    padding: 4px;
+    border-bottom: none;
+    text-decoration: none;
+  }
+  .nav-link:hover {
+    background-color: orangered;
+  }
+
+  .nav-item {
+    margin: 10px 0;
+  }
+
+  .brand {
+    font-size: 2rem;
+  }
+
+  .banner {
+    flex-direction: column;
+    text-align: center;
+  }
+  .banner img {
+    width: 100%;  /* Makes the image responsive */
+    height: auto; /* Maintains aspect ratio */
+    max-width: 100%; /* Ensures it doesn't overflow */
+    display: block; /* Removes extra space below the image */
+  }
+
+  .banner-title {
+    font-size: 2.5rem;
+  }
+
+  .banner-description {
+    font-size: 1rem;
+  }
+
+  .banner img {
+    width: 100%;
+    height: auto;
+  }
+
+  .displayFlex {
+    flex-wrap: wrap;
+  }
+
+  .banner-content {
+    max-width: 100%;
+    padding: 20px;
+  }
+
+  .team-img-container {
+    grid-template-columns: 1fr; /* 1 column on small screens */
+}
+.our-features{
+  margin-left: 40px
+}
+
+.spon-img{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.spon-img img {
+  margin-top: 10px;
+}
+
+#badge{
+  background-color: #FF900E;
+  color: white;
+  padding: 25px 22px;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-left: 0px;
+  margin-top: 0px;
+}
+#year{
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+
+}
+
+@media screen and (min-width: 576px) and (max-width: 768px) {
+  /* Navbar */
+  .navbar {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .nav-links {
+    flex-direction: row;
+    justify-content: center;
+    padding: 4px;
+  }
+
+  .nav-item {
+    margin: 10px 0;
+  }
+
+  /* Brand */
+  .brand {
+    font-size: 2.5rem;
+  }
+
+  /* Banner */
+  .banner {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .banner-title {
+    font-size: 3rem;
+  }
+
+  .banner-description {
+    font-size: 1.2rem;
+  }
+
+  .banner img {
+    width: 100%; 
+    height: auto;
+    max-width: 100%;
+    display: block; 
+  }
+
+  .team {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .team-img-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 15px;
+    padding: 10px;
+  }
+
+  .our-features {
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .feature-title {
+    font-size: 2.2rem;
+  }
+
+  .feature-list {
+    font-size: 1rem;
+  }
+
+  .fact-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .spon-img{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+  .spon-img img {
+    margin-top: 10px;
+  }
+
+  #badge{
+    background-color: #FF900E;
+    color: white;
+    padding: 25px 22px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-left: 0px;
+    margin-top: 0px;
+  }
+  #year{
+    font-size: 2.5rem;
+    font-weight: 700;
+  }
+}
+
+@media screen and (max-width: 896px) {
+  .spon-img {
+    grid-template-columns: repeat(2, 1fr); 
+    justify-content: center;
+    
+  }
+  .spon-img img {
+    margin-top: 10px;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  .spon-info {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 50px auto;
+  }
+
+  #badge{
+    background-color: #FF900E;
+    color: white;
+    padding: 25px 22px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-left: 0px;
+    margin-top: 0px;
+  }
+  #year{
+    font-size: 2.5rem;
+    font-weight: 700;
+  }
+}
